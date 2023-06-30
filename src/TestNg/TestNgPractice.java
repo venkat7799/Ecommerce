@@ -150,7 +150,7 @@ public class TestNgPractice {
 			//*[@id="payment-buttons-container"]/button/span/span
 			//*[@id="shipping-method-buttons-container"]/button
 		driver.findElement(By.xpath("//label[text()='Check / Money order ']")).click();
-			
+			//venkat
 			driver.findElement(By.xpath("//*[@id=\"payment-buttons-container\"]/button/span/span")).click();
 			driver.findElement(By.xpath("//button[@title='Place Order']")).click();
 			String str ="YOUR ORDER HAS BEEN RECEIVED.";
