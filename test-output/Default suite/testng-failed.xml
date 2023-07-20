@@ -7,7 +7,7 @@
         <methods>
           <include name="teardown"/>
           <include name="setup"/>
-          <include name="test5"/>
+          <include name="test7"/>
         </methods>
       </class> <!-- TestNg.TestNgPractice -->
     </classes>
