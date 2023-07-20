@@ -33,7 +33,7 @@ public class TestNgPractice {
 		
 	}
 	
-	@Test(enabled=false)
+	@Test()
 	public void test1() {
 		driver.findElement(By.xpath("//a[text()='Mobile']")).click();
 		String listpage = driver.findElement(By.xpath("//span[@id='product-price-1']")).getText();
@@ -49,7 +49,7 @@ public class TestNgPractice {
 		}
 	}
 		
-	@Test(enabled=false)
+	@Test()
 	public void test2() {
 		driver.findElement(By.xpath("//a[text()='Mobile']")).click();
 		driver.findElement(By.xpath("//*[@id=\"top\"]/body/div/div/div[2]/div/div[2]/div[1]/div[3]/ul/li[1]/div/div[3]/button/span/span")).click();
@@ -79,7 +79,7 @@ public class TestNgPractice {
 		}
 	}
 	
-		@Test(enabled=false)
+		@Test()
 		public void test3() {
 		
 		driver.findElement(By.xpath("//a[text()='Mobile']")).click();
@@ -96,7 +96,7 @@ public class TestNgPractice {
 		
 	}
 		
-		@Test(enabled=false)
+		@Test()
 		public void test4() {
 			
 			driver.findElement(By.xpath("//span[@class='icon']//preceding::span[text()='Account']")).click();
@@ -175,7 +175,7 @@ public class TestNgPractice {
 			
 		}
 		
-		@Test(enabled=false)
+		@Test()
 		public void test6() {
 			driver.findElement(By.xpath("//span[@class='label']//preceding::span[text()='Account']")).click(); //click on Account link
 			driver.findElement(By.xpath("//a[text()='Log In']")).click();
@@ -207,7 +207,7 @@ public class TestNgPractice {
 			
 		}
 		
-		@Test(enabled=false)
+		@Test()
 		public void test7() throws InterruptedException {
 			driver.findElement(By.xpath("//span[@class='label']//preceding::span[text()='Account']")).click(); //click on Account link
 			driver.findElement(By.xpath("//a[text()='Log In']")).click();
